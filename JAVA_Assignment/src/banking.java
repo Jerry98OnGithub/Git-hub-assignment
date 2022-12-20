@@ -9,14 +9,14 @@ class bankingSystem{
 				switch (transactionType)
 				{
 				case "credit":
-					System.out.println("Please Enter Amount to Credit: ");
+					System.out.println("Kindly Enter Amount to Credit: ");
 					float cred = inp.nextFloat();
 					System.out.println("Amount "+cred+" credited Successfully");
 					break;
 
 
 				case "debit":
-					System.out.println("Enter Amount to Debit: ");
+					System.out.println("Kindly Enter Amount to Debit: ");
 					float deb = inp.nextFloat();
 					System.out.println("Amount "+deb+" debited Successfully");
 					break;
@@ -28,7 +28,7 @@ class bankingSystem{
 
 
 				case "pinChange":
-					System.out.println("Enter New PIN");
+					System.out.println("Kindly Enter New PIN");
 					int pin = inp.nextInt();
 					System.out.println("Your new PIN is :"+ pin);
 					break;
