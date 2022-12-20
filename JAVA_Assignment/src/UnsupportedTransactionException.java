@@ -1,4 +1,4 @@
-
+//Exception class to handle banking class exception
 
 @SuppressWarnings("serial")
 public class UnsupportedTransactionException extends Exception {

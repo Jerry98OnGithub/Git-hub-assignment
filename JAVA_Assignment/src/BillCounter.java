@@ -37,7 +37,7 @@ public class BillCounter {
 				while (true) {
 					BillCounter input = new BillCounter();
 					System.out.println("Add Product: "+ no);
-					//Item Name***********
+					//Item Name----------
 					System.out.print(" Enter itemName: ");
 					String itemName = sc.next();
 					input.itemName = itemName;
@@ -49,7 +49,7 @@ public class BillCounter {
 					System.out.print(" Enter price: ");
 					float price = sc.nextFloat();
 					input.price = price;
-					//Item Type***********
+					//Item Type-----------
 					System.out.print(" Is it Raw[y/n]: ");	
 					String r = sc.next();
 					if ( r.toLowerCase().equals("y"))
